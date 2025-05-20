@@ -18,7 +18,7 @@ while 1:
                 print("Invalid input...please try again")
             else:
                 if user_number == random_number:
-                    print("Conguratulation !!! You got the number in {0} chances\n".format(chances))
+                    print("Congratulations !!! Awesome! You got the number in {0} chances\n".format(chances))
                     chances = 0
                     break
                 elif user_number > random_number:
